@@ -17,14 +17,18 @@ export class ClassApp extends Component<Record<string, never>, State> {
     return (
       <>
         <h2>Class</h2>
-        <ProfileInformation
+        <p>
+          Please excuse classes as i am not very interested in getting too
+          technical with these{" "}
+        </p>
+        {/* <ProfileInformation
           userData={
             // toggle the following lines to change
             // null
             defaultUser
           }
         />
-        <ClassForm />
+        <ClassForm /> */}
       </>
     );
   }
